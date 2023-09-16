@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1647957898 source:c:\users\hp\downloads\minutesintodays&year\main.c
+	<stdio.h>
+	<stdlib.h>
+

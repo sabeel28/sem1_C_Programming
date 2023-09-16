@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1664110937 source:c:\users\hp\downloads\enumsandchar\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

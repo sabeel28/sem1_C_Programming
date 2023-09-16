@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1644086911 source:c:\users\hp\downloads\areaofrectangledouble\main.c
+	<stdio.h>
+	<stdlib.h>
+

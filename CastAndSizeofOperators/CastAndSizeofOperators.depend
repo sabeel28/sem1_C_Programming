@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1665164540 source:c:\users\hp\downloads\castandsizeofoperators\main.c
+	<stdio.h>
+	<stdlib.h>
+
