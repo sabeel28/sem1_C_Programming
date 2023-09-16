@@ -1,0 +1,11 @@
+Hi This is Sabeel Aijaz 
+I am studying B.Tech from Galgotias University.
+This week i am in Delhi at my home.
+I really don't want to study in galgotias hummmmm.... i don't know why?
+
+#include<stdio.h>
+int main() 
+{
+  printf("Leave Galgotias");
+  return 0;
+}

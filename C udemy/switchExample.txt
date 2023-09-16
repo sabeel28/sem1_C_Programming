@@ -1,0 +1,97 @@
+
+#include<stdio.h>
+int main()
+{
+    enum Weekday{Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday};
+
+    enum Weekday today=Monday;
+
+    switch(today)
+    {
+    case Sunday:
+        printf("Today is Sunday");
+        break;
+
+    case Monday:
+        printf("Today is Monday");
+        break;
+
+    case Tuesday:
+        printf("Today is Tuesday");
+        break;
+
+    default:
+        printf("Whatever");
+        break;
+    }
+
+    return 0;
+}
+
+Output: 
+ 
+Today is Monday
+Process returned 0 (0x0)   execution time : 0.044 s
+Press any key to continue.
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+#include<stdio.h>
+int main()
+{
+    enum Weekday{Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday};
+    enum Weekday today=Monday;
+
+    switch(today)
+    {
+    case Sunday:
+        printf("Today is Sunday");
+            break;
+    case Monday:
+        printf("Today is Monday\n");
+
+    case Tuesday:
+        printf("Today is Tuesday");
+            break;
+    default:
+        printf("Whatever");
+            break;
+    }
+    return 0;
+}
+Output: 
+
+Today is Monday
+Today is Tuesday
+Process returned 0 (0x0)   execution time : 0.034 s
+Press any key to continue.
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+#include<stdio.h>
+int main()
+{
+    enum Weekday{Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday};
+    enum Weekday today=Wednesday;
+
+    switch(today)
+    {
+    case Sunday:
+        printf("Today is Sunday");
+            break;
+    case Monday:
+        printf("Today is Monday");
+            break;
+    case Tuesday:
+        printf("Today is Tuesday");
+            break;
+    default:
+        printf("Whatever");
+            break;
+    }
+    return 0;
+}
+output:
+Whatever
+Process returned 0 (0x0)   execution time : 0.054 s
+Press any key to continue.
+-----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------

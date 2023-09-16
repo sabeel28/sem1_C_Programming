@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf("variables of type char occupy %zd\n", sizeof(char));
+    printf("variables of type long occupy %zd\n", sizeof(long));
+    printf("variables of type double occupy %zd\n", sizeof(double));
+    printf("variables of type short occupy %zd\n", sizeof(short));
+    printf("variables of type int occupy %zd\n", sizeof(int));
+    printf("variables of type long long occupy %zd\n", sizeof(long long));
+    printf("variables of type long double occupy %zd\n", sizeof(long double));
+    printf("variables of type flot occupy %zd\n", sizeof(float));
+
+
+    return 0;
+}
+
+output
+
+variables of type char occupy 1
+variables of type long occupy 8
+variables of type double occupy 8
+variables of type short occupy 2
+variables of type int occupy 4
+variables of type long long occupy 8
+variables of type long double occupy 16
+variables of type flot occupy 4
+
+Process returned 0 (0x0)   execution time : 0.031 s
+Press any key to continue.
+

@@ -1,0 +1,24 @@
+/*author: Mohd Sabeel Aijaz
+Galgotias University B.Tech(CSE)*/
+/* program to check number is even or odd*/
+
+#include<stdio.h>
+int main()
+{
+    int number_to_test,remainder;
+
+    printf("Enter your number to be tested: ");
+    scanf("%i",&number_to_test);
+    remainder=number_to_test%2;
+
+    if (remainder==0)
+    {
+        printf("The Number Is Even:\n");
+    }
+    else
+    {
+       printf("The Number Is Odd:\n");
+    }
+
+    return 0;
+}

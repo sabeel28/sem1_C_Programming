@@ -1,0 +1,21 @@
+//To print the area & perimeter of rectangle//
+
+#include<stdio.h>
+int main()
+{
+    double area=0.0;
+    double perimeter=0.0;
+    double length=7;
+    double width=9;
+
+    //Defining the formula for calculation//
+
+    area=length*width;
+    perimeter=2*(length+width);
+
+    //printing the output//
+    printf("area is : %f\n", area);
+    printf("perimeter is : %f\n",perimeter);
+
+    return 0;
+}
