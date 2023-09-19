@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1612555868 source:c:\users\hp\downloads\sample\exp20.c
+	<stdio.h>
+
+1621877616 source:c:\users\hp\downloads\sample\main.c
+	<stdio.h>
+
+1612903256 source:c:\users\hp\downloads\sample\moto.c
+	<stdio.h>
+
+1612903584 source:c:\users\hp\downloads\sample\moto1.c
+	<stdio.h>
+

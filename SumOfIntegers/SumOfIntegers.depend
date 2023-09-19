@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1622396747 source:c:\users\hp\downloads\sumofintegers\main.c
+	<stdio.h>
+	<stdlib.h>
+
